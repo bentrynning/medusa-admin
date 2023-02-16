@@ -109,7 +109,8 @@
     "serve": "npm run preview",
     "test": "echo \"Write tests! && exit 1",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "update:up": "git fetch upstream && git checkout main && git merge upstream/main"
   },
   "repository": {
     "type": "git",
